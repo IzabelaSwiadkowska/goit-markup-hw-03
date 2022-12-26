@@ -1,0 +1,177 @@
+:root {
+  --first-background-color: #e5e5e5;
+  --second-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+  --alternative-font-family: "raleway";
+  --alternative-color: #757575;
+  --logo-web-color: #2196f3;
+  --logo-main-color: #000000;
+  --main-color: #212121;
+  --secondary-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--first-background-color);
+  color: var(--main-color);
+}
+.navigation {
+  background-color: var(--secondary-color);
+}
+.main-web {
+  color: var(--logo-web-color);
+  font-weight: 700;
+  font-family: var(--alternative-font-family);
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.mainlogo {
+  color: var(--logo-main-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  font-family: var(--alternative-font-family);
+  text-decoration: none;
+}
+.mainlogo:hover,
+.mainlogo:focus {
+  color: var(--logo-web-color);
+}
+.link-header {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.link-header:hover,
+.link-header:focus {
+  color: var(--logo-web-color);
+}
+.link-contact {
+  color: var(--alternative-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--logo-web-color);
+}
+.main {
+  background-color: var(--secondary-color);
+}
+.main-page {
+  background-color: var(--second-background-color);
+}
+.main-heading {
+  color: var(--secondary-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button-heading {
+  background-color: var(--logo-web-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+}
+
+.advantages-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.advantages {
+  color: var(--alternative-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.aboutus {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.ourteam {
+  background-color: var(--third-background-color);
+}
+.ourteam-headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+.last-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+.job-name {
+  color: var(--alternative-color);
+  font-size: 16px;
+  line-height: 1.17;
+}
+.contact-information {
+  background-color: var(--second-background-color);
+}
+.footer-logo {
+  color: var(--secondary-color);
+  font-family: var(--alternative-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  font-style: normal;
+  text-decoration: none;
+}
+.footer-logo:hover,
+.footer-logo:focus {
+  color: var(--logo-web-color);
+}
+.footer-web {
+  color: var(--logo-web-color);
+  font-family: var(--alternative-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+.footer-info {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-info:hover,
+.footer-info:focus {
+  color: var(--logo-web-color);
+}
+.button-portfolio {
+  font-weight: 500;
+  background-color: var(--third-background-color);
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+}
+
+.button-portfolio:hover,
+.button-portfolio:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-color);
+  background-color: var(--logo-web-color);
+}
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.description {
+  color: var(--alternative-color);
+  font-size: 16px;
+  line-height: 1.87;
+}
