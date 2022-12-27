@@ -14,9 +14,13 @@ body {
   background-color: var(--first-background-color);
   color: var(--main-color);
 }
+
 .navigation {
   background-color: var(--secondary-color);
+  display: flex;
+  width: 1600px;
 }
+
 .main-web {
   color: var(--logo-web-color);
   font-weight: 700;
@@ -32,6 +36,8 @@ body {
   line-height: 1.17;
   font-family: var(--alternative-font-family);
   text-decoration: none;
+  padding-left: 215px;
+  padding-top: 24px;
 }
 .mainlogo:hover,
 .mainlogo:focus {
@@ -44,6 +50,7 @@ body {
   line-height: 1.17;
   text-decoration: none;
 }
+
 .link-header:hover,
 .link-header:focus {
   color: var(--logo-web-color);
@@ -64,12 +71,16 @@ body {
 }
 .main-page {
   background-color: var(--second-background-color);
+  width: 1600px;
+  display: flex;
 }
 .main-heading {
   color: var(--secondary-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  width: 696px;
+  padding: 200px 452px 280px 452px;
 }
 .button-heading {
   background-color: var(--logo-web-color);
@@ -88,6 +99,8 @@ body {
 
 .advantages {
   color: var(--alternative-color);
+  display: flex;
+  flex-direction: column;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -174,4 +187,38 @@ body {
   color: var(--alternative-color);
   font-size: 16px;
   line-height: 1.87;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 2px dashed #f44336;
+}
+ul {
+  list-style-type: none;
+}
+.main-link {
+  display: flex;
+  width: 254px;
+}
+.ouradvantages {
+  width: 1170px;
+  display: flex;
+}
+.adventages-list {
+  display: flex;
+  gap: 30px;
+}
+.adventages-item {
+  width: 270px;
+}
+.advantages-heading {
+  width: 270px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.ourteam {
+  width: 1600px;
+  display: flex;
 }
