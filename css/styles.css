@@ -17,8 +17,8 @@ body {
 
 .navigation {
   background-color: var(--secondary-color);
-  display: flex;
   width: 1600px;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-web {
@@ -36,8 +36,9 @@ body {
   line-height: 1.17;
   font-family: var(--alternative-font-family);
   text-decoration: none;
-  padding-left: 215px;
-  padding-top: 24px;
+  margin-top: 24px;
+  margin-right: 93px;
+  width: 145px;
 }
 .mainlogo:hover,
 .mainlogo:focus {
@@ -61,7 +62,20 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
+  margin-top: 32px;
+  width: 135px;
+  margin-right: 50px;
 }
+.link-contact2 {
+  color: var(--alternative-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  margin-top: 32px;
+  width: 110px;
+}
+
 .link-contact:hover,
 .link-contact:focus {
   color: var(--logo-web-color);
@@ -72,7 +86,6 @@ body {
 .main-page {
   background-color: var(--second-background-color);
   width: 1600px;
-  display: flex;
 }
 .main-heading {
   color: var(--secondary-color);
@@ -80,7 +93,8 @@ body {
   font-size: 44px;
   line-height: 1.36;
   width: 696px;
-  padding: 200px 452px 280px 452px;
+  margin-top: 200px;
+  margin-bottom: 30px;
 }
 .button-heading {
   background-color: var(--logo-web-color);
@@ -89,6 +103,12 @@ body {
   font-size: 16px;
   line-height: 1.87;
   cursor: pointer;
+  border: 0px solid;
+  border-radius: 4px;
+  width: 200px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  padding: 10px 41px 10px 42px;
 }
 
 .advantages-heading {
@@ -108,6 +128,9 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  width: 352px;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .ourteam {
   background-color: var(--third-background-color);
@@ -116,19 +139,28 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  width: 209px;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 .last-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
+  margin: 30px 99px 10px 99px;
 }
+
 .job-name {
   color: var(--alternative-color);
   font-size: 16px;
   line-height: 1.17;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
+
 .contact-information {
   background-color: var(--second-background-color);
+  width: 1600px;
 }
 .footer-logo {
   color: var(--secondary-color);
@@ -138,6 +170,9 @@ body {
   line-height: 1.17;
   font-style: normal;
   text-decoration: none;
+  width: 145px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .footer-logo:hover,
 .footer-logo:focus {
@@ -168,6 +203,9 @@ body {
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  padding: 6px 22px;
+  border: 0px solid;
+  border-radius: 4px;
 }
 
 .button-portfolio:hover,
@@ -182,23 +220,33 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  width: 322px;
+  padding-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .description {
   color: var(--alternative-color);
   font-size: 16px;
   line-height: 1.87;
+  width: 322px;
+  padding-left: 24px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
-  border: 2px dashed #f44336;
 }
 ul {
   list-style-type: none;
+  padding: 0;
 }
 .main-link {
-  display: flex;
   width: 254px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-right: 364px;
 }
 .ouradvantages {
   width: 1170px;
@@ -207,6 +255,7 @@ ul {
 .adventages-list {
   display: flex;
   gap: 30px;
+  margin: 0;
 }
 .adventages-item {
   width: 270px;
@@ -221,4 +270,129 @@ ul {
 .ourteam {
   width: 1600px;
   display: flex;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+  border-bottom: 1px solid #eeeeee;
+}
+.buttons-portfolio {
+  width: 572px;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 34px;
+  margin-top: 0;
+}
+.main-link2 {
+  width: 261px;
+}
+.section-aboutus {
+  width: 1170px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.whatwedo {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin: 0;
+}
+.examples {
+  flex-basis: calc((100% - 2 * 30px) / 3);
+}
+.section-we {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourteam {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.leaders {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+.workers {
+  display: flex;
+  width: 1170px;
+  gap: 30px;
+  margin: 0;
+}
+.workers-data {
+  display: flex;
+  flex-basis: calc((100% - 3 * 30px) / 4);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-link {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.footer-mail {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.footer-phone {
+  margin-top: 9px;
+}
+.collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.navigate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navigate2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-contact {
+  display: flex;
+}
+.general {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-link2 {
+  width: 261px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-right: 364px;
+}
+.mainlogo2 {
+  color: var(--logo-main-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  font-family: var(--alternative-font-family);
+  text-decoration: none;
+  margin-top: 30px;
+  margin-right: 88px;
+  width: 145px;
 }
