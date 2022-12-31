@@ -17,7 +17,6 @@ body {
 
 .navigation {
   background-color: var(--secondary-color);
-  width: 1600px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -36,9 +35,6 @@ body {
   line-height: 1.17;
   font-family: var(--alternative-font-family);
   text-decoration: none;
-  margin-top: 24px;
-  margin-right: 93px;
-  width: 145px;
 }
 .mainlogo:hover,
 .mainlogo:focus {
@@ -62,9 +58,6 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
-  margin-top: 32px;
-  width: 135px;
-  margin-right: 50px;
 }
 .link-contact2 {
   color: var(--alternative-color);
@@ -85,7 +78,6 @@ body {
 }
 .main-page {
   background-color: var(--second-background-color);
-  width: 1600px;
 }
 .main-heading {
   color: var(--secondary-color);
@@ -95,6 +87,7 @@ body {
   width: 696px;
   margin-top: 200px;
   margin-bottom: 30px;
+  text-align: center;
 }
 .button-heading {
   background-color: var(--logo-web-color);
@@ -161,7 +154,6 @@ body {
 
 .contact-information {
   background-color: var(--second-background-color);
-  width: 1600px;
 }
 .footer-logo {
   color: var(--secondary-color);
@@ -244,11 +236,9 @@ ul {
   padding: 0;
 }
 .main-link {
-  width: 254px;
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
-  margin-right: 364px;
+  gap: 46px;
 }
 .ouradvantages {
   width: 1170px;
@@ -272,7 +262,6 @@ ul {
   padding-bottom: 94px;
 }
 .ourteam {
-  width: 1600px;
   display: flex;
 }
 .card-set {
@@ -294,8 +283,9 @@ ul {
   margin-top: 0;
 }
 .main-link2 {
-  width: 261px;
+  gap: 46px;
 }
+
 .section-aboutus {
   width: 1170px;
   margin: 0 auto;
@@ -366,6 +356,7 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .navigate2 {
@@ -373,10 +364,12 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .main-contact {
   display: flex;
+  gap: 50px;
 }
 .general {
   display: flex;
@@ -389,8 +382,6 @@ ul {
   width: 261px;
   display: flex;
   justify-content: space-between;
-  margin-top: 32px;
-  margin-right: 364px;
 }
 .mainlogo2 {
   color: var(--logo-main-color);
@@ -399,7 +390,17 @@ ul {
   line-height: 1.17;
   font-family: var(--alternative-font-family);
   text-decoration: none;
-  margin-top: 30px;
-  margin-right: 88px;
-  width: 145px;
+}
+.footer-info {
+  margin: 0;
+}
+.nav-points {
+  display: flex;
+  flex: 1;
+  padding-left: 93px;
+}
+.nav-points2 {
+  display: flex;
+  flex: 1;
+  padding-left: 88px;
 }
