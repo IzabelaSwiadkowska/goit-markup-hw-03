@@ -153,6 +153,8 @@ body {
 
 .contact-information {
   background-color: var(--second-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer-logo {
   color: var(--secondary-color);
@@ -163,8 +165,6 @@ body {
   font-style: normal;
   text-decoration: none;
   width: 145px;
-  padding-top: 60px;
-  padding-bottom: 20px;
 }
 .footer-logo:hover,
 .footer-logo:focus {
@@ -329,18 +329,6 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
 }
-.footer-link {
-  padding-top: 20px;
-  padding-bottom: 9px;
-}
-.footer-mail {
-  padding-top: 9px;
-  padding-bottom: 9px;
-}
-.footer-phone {
-  padding-top: 9px;
-  padding-bottom: 60px;
-}
 .collection {
   display: flex;
   flex-wrap: wrap;
@@ -406,4 +394,11 @@ ul {
 }
 .ourassets {
   padding-bottom: 0;
+}
+
+.footnote-1 {
+  padding-bottom: 20px;
+}
+.footnote-2:not(:last-child) {
+  padding-bottom: 9px;
 }
